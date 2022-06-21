@@ -28,5 +28,4 @@ public class UIPokemonPokedex : MonoBehaviour, IPointerClickHandler {
         if(tipoAvistamiento != PokedexTipoAvistamiento.NINGUNO)
             UIControlador.Instancia.pokedexDetalles.MostrarPokemonPokedex(pokemon, tipoAvistamiento);
     }
-
 }

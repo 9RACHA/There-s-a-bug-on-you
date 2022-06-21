@@ -36,5 +36,4 @@ public class UIBotonAtaque : MonoBehaviour, IPointerClickHandler {
             ataqueID = AtaqueID.NINGUNO;
         }
     }
-
 }

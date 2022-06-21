@@ -32,5 +32,4 @@ public class UIMochilaBotonesSecciones : MonoBehaviour, IPointerClickHandler {
             UIControlador.Instancia.MenuMochila_BotonSeccionPulsado(this, seccionAbrir);
         }
     }
-    
 }

@@ -33,6 +33,5 @@ public class Pokemon : ScriptableObject {
     public int nivelEvolucion;
     [HideInInspector]
     public List<AtaqueReferencia> listaDeAtaques;
-    
-    
+      
 }

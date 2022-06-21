@@ -90,5 +90,4 @@ public class UIAprenderNuevoAtaqueVentana : MonoBehaviour {
     {
         gameObject.SetActive(false);
     }
-   
 }

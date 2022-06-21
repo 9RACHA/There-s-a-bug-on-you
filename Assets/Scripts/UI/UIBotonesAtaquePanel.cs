@@ -22,5 +22,4 @@ public class UIBotonesAtaquePanel : MonoBehaviour {
         UIControlador.Instancia.CombateAtaques.botonAtaque3.MostrarDatosAtaque(p.Pokemon.Ataques()[2]);
         UIControlador.Instancia.CombateAtaques.botonAtaque4.MostrarDatosAtaque(p.Pokemon.Ataques()[3]);
     }
-
 }

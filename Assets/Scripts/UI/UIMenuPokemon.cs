@@ -16,5 +16,4 @@ public class UIMenuPokemon : MonoBehaviour {
         UIControlador.Instancia.EquipoPokemon.pokemon6.MostrarPokemon(equipoJugador[5]);
     }
     
-    
 }

@@ -11,7 +11,6 @@ public class UIVentanaConfirmacion : MonoBehaviour {
     {
         UltimaEleccion = Eleccion.EnEspera;
         gameObject.SetActive(true);
-
     }
 
 	public void BotonConfirmacionPulsado()

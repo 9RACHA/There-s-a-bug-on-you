@@ -7,8 +7,7 @@ public class UIBotonCombateGenerico : MonoBehaviour, IPointerClickHandler {
 
     public TipoAccion accionAsociada;
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
+    public void OnPointerClick(PointerEventData eventData){
         UIControlador.Instancia.Combate.menuEleccionesCombate.gameObject.SetActive(false);
         if(accionAsociada == TipoAccion.CambiarPokemon)
         {

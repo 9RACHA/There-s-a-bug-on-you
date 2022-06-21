@@ -8,6 +8,5 @@ public class UIMovilBotonAbrirMenuPrincipal: MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         ControladorEventos.Instancia.LanzarEvento(new EventoBotonMovilPulsadoAbrirMenuPrincipal());
-        
     }
 }

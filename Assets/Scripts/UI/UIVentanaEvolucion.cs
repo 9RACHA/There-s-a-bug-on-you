@@ -16,6 +16,5 @@ public class UIVentanaEvolucion : MonoBehaviour {
     public void CancelarEvolucion()
     {
         EvolucionDetenida = true;
-    }
-    
+    } 
 }

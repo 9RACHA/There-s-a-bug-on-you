@@ -16,9 +16,7 @@ public class UIDetallesPokemonAtaque : MonoBehaviour {
         if(ataque == null || ataque.ID == AtaqueID.NINGUNO || pokemon == null)
         {
             gameObject.SetActive(false);
-        }
-        else
-        {
+        }else{
             nombre.text = pokemon.Ataque(ataque.ID).DatosFijos.nombre;
             elemento.text = Herramientas.TextoAtaqueElemento(pokemon.Ataque(ataque.ID).DatosFijos.ataqueElemento);
             pp.text = pokemon.Ataque(ataque.ID).TextoPPActualYMaximo();

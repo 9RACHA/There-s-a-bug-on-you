@@ -44,7 +44,6 @@ public class UITienda : MonoBehaviour {
                 go.GetComponent<RectTransform>().localScale = Vector3.one;
                 itemTiendaLista.Add(go);
             }            
-
             elementoSinAsignar = false;
         }
 

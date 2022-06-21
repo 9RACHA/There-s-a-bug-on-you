@@ -8,4 +8,5 @@ public class UIAsignadorAutomaticoPokemonPokedex : MonoBehaviour {
     public GameObject contenedorPokedex;
     public UIPokemonPokedex plantilla;
 #endif
+
 }

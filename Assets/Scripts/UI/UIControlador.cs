@@ -40,6 +40,7 @@ public class UIControlador : MonoBehaviour {
         public Image barraExperienciaJugador;
         public UIVentanaIncrementoEstadisticas ventanaIncrementoEstadisticas;
     }
+    
     [Space(10)]
     [Header("Combate")]
     [SerializeField]

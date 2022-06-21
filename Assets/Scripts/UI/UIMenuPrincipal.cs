@@ -13,4 +13,5 @@ public class UIMenuPrincipal : MonoBehaviour {
     {
         Personaje.UIAbierta = false;
     }
+    
 }

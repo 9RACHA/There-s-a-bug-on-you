@@ -45,8 +45,7 @@ public class UITiendaVentanaConfirmacion : MonoBehaviour {
             botonConfirmar.interactable = true;
     }
 
-    public void ConfirmarOperacion()
-    {
+    public void ConfirmarOperacion() {
         ControladorDatos.Instancia.Datos.ComprarItem(item, cantidad);
         UIControlador.Instancia.Tienda.dineroActual.text = ControladorDatos.Instancia.Datos.Monedas.ToString();
         precioTotal.text = string.Empty;

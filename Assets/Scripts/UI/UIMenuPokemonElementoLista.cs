@@ -33,7 +33,6 @@ public class UIMenuPokemonElementoLista : MonoBehaviour, IDragHandler, IBeginDra
                 estadoAlterado.text = "   ";
             gameObject.SetActive(true);
         }
-        
     }
     
     public void OnBeginDrag(PointerEventData eventData)

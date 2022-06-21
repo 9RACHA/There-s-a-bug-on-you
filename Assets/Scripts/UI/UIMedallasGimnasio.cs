@@ -19,4 +19,5 @@ public class UIMedallasGimnasio : MonoBehaviour {
         else
             imagen.color = Color.black;
 	}	
+    
 }

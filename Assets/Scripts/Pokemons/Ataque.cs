@@ -16,6 +16,7 @@ public class Ataque : ScriptableObject {
     [Range(20, 100)]
     public int precision;
     [Range(0, 100)]
+    
     public int posibilidadCritico;
     public EstadoAlterado provocaEstadoAlterado;
     public int probabilidadDeProvocarEstadoAlterado;

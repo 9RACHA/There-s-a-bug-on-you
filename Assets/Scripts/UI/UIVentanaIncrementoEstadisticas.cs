@@ -38,4 +38,5 @@ public class UIVentanaIncrementoEstadisticas : MonoBehaviour {
 
         gameObject.SetActive(true);
     }
+    
 }

@@ -5,8 +5,7 @@ using UnityEngine;
 using System.Linq;
 
 [System.Serializable]
-public class PokemonModelo
-{
+public class PokemonModelo {
     [SerializeField]
     private string _identificardorUnico;
     [SerializeField]

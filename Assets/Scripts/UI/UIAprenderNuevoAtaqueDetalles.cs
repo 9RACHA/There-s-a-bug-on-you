@@ -9,7 +9,6 @@ public class UIAprenderNuevoAtaqueDetalles : MonoBehaviour, IPointerClickHandler
     public Text nombre;
     public Text elemento;
     public Text poderYTipo;
-
     private Ataque ataque;
     private UIAprenderNuevoAtaqueVentana componenteControlador;
 

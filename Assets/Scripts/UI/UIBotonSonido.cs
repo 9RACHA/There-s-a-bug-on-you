@@ -11,5 +11,4 @@ public class UIBotonSonido : MonoBehaviour, IPointerClickHandler {
     {
         ControladorDatos.Instancia.ReproducirSonido(sonido);
     }
-    
 }

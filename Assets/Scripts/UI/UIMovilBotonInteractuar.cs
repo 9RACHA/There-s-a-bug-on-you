@@ -19,4 +19,5 @@ public class UIMovilBotonInteractuar : MonoBehaviour, IPointerClickHandler, IPoi
     {
         ControlesPersonaje.botonCorrerPulsado = false;
     }
+    
 }

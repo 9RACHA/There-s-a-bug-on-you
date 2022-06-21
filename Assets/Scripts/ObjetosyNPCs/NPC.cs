@@ -95,7 +95,6 @@ public class NPC : IInteractivo
         }
     }
 
-
     public void MostrarDialogo()
     {
         for (int i = listaConversaciones.Count - 1; i >= 0; i--)

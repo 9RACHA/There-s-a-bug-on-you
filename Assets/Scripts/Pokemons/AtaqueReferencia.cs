@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class AtaqueReferencia
-{
+public class AtaqueReferencia{
     public AtaqueID ataque;
     public int nivelAprender;
 }

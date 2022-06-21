@@ -12,7 +12,7 @@ public class UIMochilaSeccionPanel : MonoBehaviour {
     private void OnEnable()
     {
         if (elementosListados == null)
-            elementosListados = new Dictionary<ItemID, UIMochilaItem>();
+        elementosListados = new Dictionary<ItemID, UIMochilaItem>();
 
         Dictionary<ItemID, int> inventario = ControladorDatos.Instancia.Datos.ObtenerInventario();
 

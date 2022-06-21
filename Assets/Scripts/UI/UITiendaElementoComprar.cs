@@ -8,7 +8,6 @@ public class UITiendaElementoComprar : MonoBehaviour, IPointerClickHandler {
 
     public Text nombre;
     public Text precio;
-
     private Item item;
 
 	public void AsignarValores(ItemID itemID)

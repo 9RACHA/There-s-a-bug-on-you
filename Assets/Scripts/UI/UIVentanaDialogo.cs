@@ -80,8 +80,6 @@ public class UIVentanaDialogo : MonoBehaviour
         }
     }
     
-    
-
     public IEnumerator MostrarTextoCorrutina(string texto, bool desactivarVentanaAlTerminar, bool leerTecladoEnUltimaVentana = true,
         float tiempoEsperaUltimaVentanaSiNoSeLeeTeclado = Ajustes.tiempoDeEsperaUltimaVentanaDialogoSiNoSeLeeElTeclado)
     {

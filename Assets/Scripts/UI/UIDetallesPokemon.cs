@@ -15,6 +15,7 @@ public class UIDetallesPokemon : MonoBehaviour {
             ele = Herramientas.TextoAtaqueElemento(pokemonDatos.DatosFijos.tipoElemento1);
         if (pokemonDatos.DatosFijos.tipoElemento2 != Elemento.NINGUNO)
             ele = string.Concat(ele, " ", Herramientas.TextoAtaqueElemento(pokemonDatos.DatosFijos.tipoElemento2));
+            
         UIControlador.Instancia.DetallesPokemon.elementos.text = ele;
 
         UIControlador.Instancia.DetallesPokemon.ataques1.MostrarAtaque(pokemonDatos.Ataques()[0], pokemonDatos);

@@ -18,8 +18,7 @@ public class ContenedorEventosDeZona : MonoBehaviour {
         ControladorEventos.Instancia.DesubscribirseEvento(typeof(EventoNuevoLogroConseguido), NuevoEventoDeZona);
     }
 
-    private void BuscarEventosDeZona()
-    {
+    private void BuscarEventosDeZona() {
         eventoDeZona = new List<EventoDeZona>();
         for (int i = 0; i < transform.childCount; i++)
         {

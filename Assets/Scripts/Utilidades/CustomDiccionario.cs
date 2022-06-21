@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [Serializable]
 public class CustomDiccionario<Clave, Valor> 
 {

@@ -28,8 +28,7 @@ public class UIMochilaItem : MonoBehaviour, IPointerClickHandler {
             case TipoDeItem.Curacion:
                 UIControlador.Instancia.MenuMochila_ItemPulsado(itemRelacionado);
                 break;
-            case TipoDeItem.Pokeball:
-                //Sólo se pueden utilizar pokeballs en combates contra pokémon salvajes
+            case TipoDeItem.Pokeball://Sólo se pueden utilizar pokeballs en combates contra pokémon salvajes
                 if(ControladorCombate.DatosCombate != null && ControladorCombate.DatosCombate.CombateActivo && ControladorCombate.DatosCombate.TipoCombate == TipoDeCombate.PokemonSalvaje)
                     UIControlador.Instancia.MenuMochila_ItemPulsado(itemRelacionado);
                 break;

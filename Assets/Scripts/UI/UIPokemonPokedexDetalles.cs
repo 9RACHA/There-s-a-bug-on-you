@@ -17,7 +17,7 @@ public class UIPokemonPokedexDetalles : MonoBehaviour {
 
         switch (tipoAvistamiento)
         {
-            //case PokedexTipoAvistamiento.NINGUNO:
+            //case: PokedexTipoAvistamiento.NINGUNO:
             //    imagen.color = Color.black;
             //    nombre.text = Ajustes.Instancia.PokedexNombrePokemonCuandoNoLoHavistoNiCapturado;
             //    elementos.text = Ajustes.Instancia.PokedexNombrePokemonCuandoNoLoHavistoNiCapturado;

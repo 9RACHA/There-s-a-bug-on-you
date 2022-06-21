@@ -53,5 +53,4 @@ public class AtaquesModelo {
         if (pp < 0)
             pp = 0;
     }
-    
 }

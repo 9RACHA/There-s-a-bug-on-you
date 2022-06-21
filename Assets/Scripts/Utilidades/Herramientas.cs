@@ -24,7 +24,6 @@ public static class Herramientas {
         }
 
         return nuevaDireccion;
-
     }
 
     public static T ParseEnum<T>(string value)
