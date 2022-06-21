@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51871b517f8e46349a604d38f4698cea, type: 3}
+  m_Name: Pocion
+  m_EditorClassIdentifier: 
+  ID: 2
+  nombre: Pocion
+  descripcion: Te cura 100 PS, puede salvarte de un apuro
+  precioEnTienda: 150
+  tipoDeItem: 0
+  "ense\xF1aAtaque": 0
+  cantidadSanacion: 100
+  restaurarEstadoAlterado: 0
+  posibilidadCaptura: 50
