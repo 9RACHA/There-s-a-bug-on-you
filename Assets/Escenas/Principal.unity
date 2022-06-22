@@ -19669,7 +19669,7 @@ GameObject:
   - component: {fileID: 889831639}
   - component: {fileID: 889831638}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: AbajoDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19739,7 +19739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2415a720c7fb5fd4db0e73965a4949e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destino: {fileID: 1286478804}
+  destino: {fileID: 2054374250}
   direccionMirar: 2
 --- !u!1001 &896780441
 PrefabInstance:
@@ -32937,7 +32937,7 @@ GameObject:
   - component: {fileID: 1286478806}
   - component: {fileID: 1286478805}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: ArribaIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32955,7 +32955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2415a720c7fb5fd4db0e73965a4949e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destino: {fileID: 889831640}
+  destino: {fileID: 2011015175}
   direccionMirar: 1
 --- !u!61 &1286478805
 BoxCollider2D:
@@ -90707,7 +90707,7 @@ GameObject:
   - component: {fileID: 2011015174}
   - component: {fileID: 2011015173}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: AbajoIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90777,7 +90777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2415a720c7fb5fd4db0e73965a4949e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destino: {fileID: 2054374250}
+  destino: {fileID: 1286478804}
   direccionMirar: 2
 --- !u!1001 &2011510112
 PrefabInstance:
@@ -91552,7 +91552,7 @@ GameObject:
   - component: {fileID: 2054374252}
   - component: {fileID: 2054374251}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ArribaDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91570,7 +91570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2415a720c7fb5fd4db0e73965a4949e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destino: {fileID: 2011015175}
+  destino: {fileID: 889831640}
   direccionMirar: 1
 --- !u!61 &2054374251
 BoxCollider2D:
